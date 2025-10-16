@@ -5,7 +5,7 @@
 #
 #=========================================================================================
 
-base_url = "https://jienweng.com"
+base_url = "https://www.jienweng.com"
 title = "Jien Weng"
 description = "Jien Weng"
 default_language = "en"

@@ -59,6 +59,6 @@ footer_copyright = "© 2025 Jien Weng"
 not_found_error_text = "404 Not Found"
 not_found_recover_text = "« back to home »"
 
-reaction = false # Whether to enable anonymous emoji reactions (Note: You need to set up a working api endpoint to enable this feature)
+reaction = true # Whether to enable anonymous emoji reactions (Note: You need to set up a working api endpoint to enable this feature)
 reaction_align = "right" # "left" | "center" | "right"
-reaction_endpoint = "https://example.com/api/reaction"
+reaction_endpoint = "https://reaction.laijienweng.workers.dev"

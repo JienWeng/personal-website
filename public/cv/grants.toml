@@ -28,7 +28,7 @@ featured = false  # optional
 
 [[collection]]
 type = "card_simple"
-title = "UTAR Scholaships for Top Achievers (Pre-U)"
+title = "UTAR Scholarships for Top Achievers (Pre-U)"
 date = "Oct 2021" # optional
 content = ""
 featured = false  # optional

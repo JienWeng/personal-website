@@ -38,3 +38,9 @@ reaction = false
 # Certifications
 
 {{collection(file="certifications.toml")}}
+
+<hr>
+
+# Grants
+
+{{collection(file="grants.toml")}}

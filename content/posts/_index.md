@@ -11,10 +11,9 @@ generate_feeds = true
 lang = "en"
 
 title = "Posts"
-subtitle = "I write random thoughts. It could be anything."
+subtitle = "I find lots of my early blogs are very naive and I admitted there are lots AI-assisted content. But I guess it's part of the journey, so I'll just leave them here."
 
 date_format = "%b %-d, %Y"
-
 categorized = false # posts can be categorized
 back_to_top = true # show back-to-top button
 toc = true # show table-of-contents

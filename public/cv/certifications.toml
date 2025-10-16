@@ -1,0 +1,34 @@
+[[collection]]
+type = "art_simple"
+title = "Front End Development"
+subtitle = "Issued Jan 2025" 
+link = "https://www.freecodecamp.org/certification/JienWeng/front-end-development-libraries" # 
+img = "img/cert/freecodecamp_frontend.jpeg" 
+
+[[collection]]
+type = "art_simple"
+title = "NVIDIA Deep Learning"
+subtitle = "Issued Dec 2024" 
+link = "https://learn.nvidia.com/certificates?id=vadb2mqrSgKGRqORxsa3KQ#" # 
+img = "img/cert/nvidia_deep_learning.webp" 
+
+[[collection]]
+type = "art_simple"
+title = "IBM Data Science"
+subtitle = "Issued Oct 2024" 
+link = "https://www.coursera.org/account/accomplishments/specialization/VXTZ7EFLXX2V" # optional
+img = "img/cert/google_data_analytics.webp" 
+
+[[collection]]
+type = "art_simple"
+title = "Google Data Analytics"
+subtitle = "Issued Jun 2024" 
+link = "https://www.coursera.org/account/accomplishments/professional-cert/OSVLSAL5XQQL" # 
+img = "img/cert/ibm_data_science.webp" 
+
+[[collection]]
+type = "art_simple"
+title = "NLP for Machine Learning"
+subtitle = "Issued Jun 2024" 
+link = "https://www.linkedin.com/learning/certificates/31163a64417d9ee58f69f9da29aa1f40cbc6a43247454a998787e9d5aa5bb3c7" # 
+img = "img/cert/nasba_nlp.webp" 

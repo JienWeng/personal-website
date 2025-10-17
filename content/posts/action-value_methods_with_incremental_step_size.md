@@ -68,9 +68,13 @@ End For
 ```
 {% end %}
 
-{{ figure(src="http://incompleteideas.net/smallbookcover.gif", alt="Reinforcement Learning: An Introduction", caption="Reinforcement Learning: An Introduction") }}
 
-In the end of this post, we derived the incremental step size method for updating the aciton-value estimates which extensively applied in reinforcement learning. This method is computationally efficient as it does not require storing all previous rewards, and it ensures convergence to the true action values over time. I want to express my gratitude to Sutton and Barto for their excellent book [Reinforcement Learning: An Introduction](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf) that provides a comprehensive introduction to the concepts and algorithms of reinforcement learning.
+
+In the end of this post, we derived the incremental step size method for updating the aciton-value estimates which extensively applied in reinforcement learning. This method is computationally efficient as it does not require storing all previous rewards, and it ensures convergence to the true action values over time. 
+
+{{ figure(src="https://m.media-amazon.com/images/I/81EBg4xmLgL._UF1000,1000_QL80_.jpg", alt="Reinforcement Learning: An Introduction", caption="Reinforcement Learning: An Introduction") }}
+
+I want to express my gratitude to Sutton and Barto for their excellent book [Reinforcement Learning: An Introduction](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf) that provides a comprehensive introduction to the concepts and algorithms of reinforcement learning.
 
 References:
 - Sutton, R. S., & Barto, A. G. (2018). Reinforcement Learning: An Introduction (2nd ed.). MIT Press. [https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf)

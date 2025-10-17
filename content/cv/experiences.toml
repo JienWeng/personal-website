@@ -21,6 +21,6 @@ type = "card_simple"
 title = "Great Eastern Life Assurance"
 date = "Oct 2024 - Jan 2025"
 # icon = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_bwoq80vl_iPTGuE1xgdc3-9xLB1uJXq1mw&s"
-link = "https://example.com" # optional
+link = "https://www.greateasternlife.com/my/en/personal-insurance.html" # optional
 content = "Finance Analyst - Data Engineer Intern"
 featured = false  # optional

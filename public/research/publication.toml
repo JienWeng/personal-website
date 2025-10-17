@@ -1,0 +1,10 @@
+[[collection]]
+type = "card"
+title = "Bias, Fairness, and Cooperation in Multi-Agent Reinforcement Learning: A Public Goods Game Perspective"
+subtitle = "Jien Weng Lai, Wei Lun Tan, Ying Loong Lee" # optional
+date = "In Review" # optional
+# link = "https://example.com" # optional
+# icon = "https://example.com/image.png" # optional
+content = "This study empirically evaluates overestimation bias in Q-learning and Double Q-learning within a multi-agent reinforcement learning (MARL) framework, using the Public Good Game (PGG) to model cooperation dilemmas. Our findings highlights context-dependent algorithmic efficacy, which demonstrates that bias correction enhances stability and equity in resource-constrained environments, but may limit collective gains when cooperation incentives are strong. This work advances MARL for social dilemmas, offering insights for designing cooperative systems in various domains, including emerging issues such as environmental governance and global resource allocation."
+# tags = ["tag1", "tag2"] # optional
+featured = false  # optional

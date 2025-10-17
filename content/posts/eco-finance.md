@@ -12,7 +12,7 @@ tags = ["hackathon"]
 [extra]
 lang = "en"
 toc = true
-comment = false
+comment = true
 copy = false
 outdate_alert = true
 outdate_alert_days = 120

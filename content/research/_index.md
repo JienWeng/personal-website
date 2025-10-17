@@ -8,7 +8,7 @@ insert_anchor_links = "none"
 lang = 'en'
 
 title = "Research"
-subtitle = "Nothing here at the moment, probably soon..."
+subtitle = "Still in the early days of my research journey. "
 
 math = false
 mermaid = false
@@ -16,4 +16,15 @@ copy = false
 comment = false
 reaction = false
 +++
+
+# Research Interests
+
+1. Multi-Agent Reinforcement Learning
+2. Artificial Intelligence for Social Good
+
+<hr>
+
+# Publications
+
+{{collection(file="publication.toml")}}
 

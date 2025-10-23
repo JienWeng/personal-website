@@ -7,7 +7,7 @@ draft = false
 
 [taxonomies]
 categories = ["2025"]
-tags = ["math"]
+tags = ["math", "reinforcement learning", "ai"]
 
 [extra]
 lang = "en"

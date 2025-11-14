@@ -1,5 +1,20 @@
 [[collection]]
 type = "card_simple"
+title = "KPJ Healthcare K.R.A.F.T. Challenge 2025"
+content = "Top 12"
+date = "Nov 2025"
+featured = false
+
+[[collection]]
+type = "card_simple"
+title = "Talentbank Boardroom Challenge 2025"
+content = "Future Founder Award, Top 15 Finalist"
+date = "Nov 2025"
+featured = false
+link = "https://media.licdn.com/dms/image/v2/D562DAQHmw66UAwO0Ng/profile-treasury-image-shrink_8192_8192/B56ZpjPlRmIsAk-/0/1762601621388?e=1763208000&v=beta&t=sogyJMagmuucwgFGC5CxqUH2Fl7avESKPiCAmgfq9RU"
+
+[[collection]]
+type = "card_simple"
 title = "CodeNection Hackathon 2025"
 content = "Mentor"
 date = "Oct 2025"

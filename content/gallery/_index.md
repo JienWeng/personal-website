@@ -8,4 +8,4 @@ title = "Gallery"
 subtitle = "Showcasing web design projects"
 +++
 
-{{ collection(file="gallery.toml") }}
+<!-- {{ collection(file="gallery.toml") }} -->

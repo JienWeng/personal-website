@@ -129,6 +129,29 @@ a:focus-visible {
     font-size: 0.9em;
   }
 
+  .youtube-container {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    margin: 1.5em auto;
+  }
+
+  .youtube-video {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border-radius: var(--img-border-radius);
+    border: none;
+  }
+
+  .youtube-caption {
+    width: 100%;
+    text-align: center;
+    margin: 1em auto 2em;
+    color: var(--text-pale-color);
+    font-size: 0.9em;
+  }
+
   blockquote {
     border-left: 1.5px var(--text-decoration-color) solid;
     padding-left: 16px;

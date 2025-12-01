@@ -1,5 +1,5 @@
 +++
-title = "My Blog"
+title = "Jien Weng's Blog"
 description = "My blog site."
 sort_by = "date"
 template = "blog.html"
@@ -9,15 +9,14 @@ generate_feeds = true
 
 [extra]
 lang = "en"
-
 title = "Posts"
 subtitle = "I find lots of my early blogs are very naive and I admitted there are lots AI-assisted content. But I guess it's part of the journey, so I'll just leave them here."
 
 date_format = "%b %-d, %Y"
-categorized = false # posts can be categorized
+categorized = true # posts can be categorized
 back_to_top = true # show back-to-top button
 toc = true # show table-of-contents
-comment = false # enable comment
+comment = true # enable comment
 copy = true # show copy button in code block
 
 outdate_alert = false

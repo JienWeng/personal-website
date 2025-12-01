@@ -19,8 +19,8 @@ links = [
 ]
 
 # Show a few recent posts in home page
-recent = false
-recent_max = 15
+recent = true
+recent_max = 5
 recent_more_text = "more »"
 date_format = "%b %-d, %Y"
 +++
@@ -41,4 +41,8 @@ Beyond academics, I'm currently working on several web development projects, and
 - Office: [Starbucks AEON Cheras Selatan](https://share.google/ToEkH5uFfJYN8Efm7)
 
 I'm always down to chat about anything, math, techs, researchs, puppies etc. Feel free to reach out via email!
+
+<hr>
+
+# Recent Posts
 

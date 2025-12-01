@@ -1,5 +1,5 @@
 +++
-title = "research"
+title = "Research"
 description = "Jien Weng's research page."
 template = "prose.html"
 insert_anchor_links = "none"
@@ -21,6 +21,7 @@ reaction = false
 
 1. Multi-Agent Reinforcement Learning
 2. Artificial Intelligence for Social Good
+3. Water Research
 
 <hr>
 

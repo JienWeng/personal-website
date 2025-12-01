@@ -29,7 +29,7 @@ date_format = "%b %-d, %Y"
 
 # About
 
-I'm a seasonal hackathon participant and a math nerd. I obtained my BSc. in Applied Mathematics from [Tunku Abdul Rahman University (UTAR)](https://www.utar.edu.my). Soon, I'll be pursuing my postgraduate studies in Mathematics, where my work primarily builds upon artificial intelligence within reinforcement learning frameworks. I believe that soon the current LLM would reach a point where it hardly improves, and the next gap to filled in is experience.
+I'm a Research Assistant at [Monash University Malaysia](https://www.monash.edu.my) under the supervision of [Ir. Ts. Gs. Dr. Chow Ming Fai](https://www.monash.edu.my/engineering/about-us/all-staff/civil-engineering/ap-dr-chow-ming-fai). I obtained my BSc. in Applied Mathematics from [Tunku Abdul Rahman University (UTAR)](https://www.utar.edu.my). My research is motivated by the reinforcement learning advancements in attention-based predictive models. I believe that soon the current LLM would reach a point where it hardly improves, and the next gap to filled in is experience.
 
 Beyond academics, I'm currently working on several web development projects, and actively providing college-level mathematics and public speaking tutoring services.
 

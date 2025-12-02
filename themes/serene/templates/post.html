@@ -1,4 +1,5 @@
 {% import "macros/prose.html" as macros %}
+{% import "macros/bibliography.html" as bib_macros %}
 {% extends "_base.html" %}
 
 {% block page %}post{% endblock page %}
@@ -121,8 +122,46 @@
         {% endif %}
 
         {{ page.content | safe }}
-      </article>
 
+        {# Bibliography section #}
+        {% if page.extra.bibliography is defined %}{% set show_bibliography = page.extra.bibliography %}{% else %}{% set show_bibliography = section.extra.bibliography | default(value=false) %}{% endif %}
+        {% if page.extra.bibliography_file is defined %}{% set bib_file = page.extra.bibliography_file %}{% else %}{% set bib_file = section.extra.bibliography_file | default(value="") %}{% endif %}
+        
+        {% if show_bibliography and bib_file %}
+        <section id="bibliography" class="bibliography-section">
+          <h2>References</h2>
+          {%- set bib_filename = bib_file | split(pat="/") | last | split(pat=".") | first -%}
+          {%- set bib_path = "bib/" ~ bib_filename ~ ".toml" -%}
+          {%- set bib_data = load_data(path=bib_path) -%}
+          
+          <ol class="bibliography-list">
+          {# Render TOML bibliography entries #}
+          {%- set entry_index = 0 -%}
+          {%- if bib_data.bibliography -%}
+            {%- for citation_key, entry in bib_data.bibliography -%}
+              {%- set entry_index = entry_index + 1 -%}
+              <li id="ref-{{ citation_key }}" class="bibliography-entry">
+                {%- if entry.type == "article" -%}
+                  {{- entry.author }} ({{ entry.year }}). {{ entry.title }}. <em>{{ entry.journal }}</em>{% if entry.volume %}, {{ entry.volume }}{% endif %}{% if entry.number %}({{ entry.number }}){% endif %}{% if entry.pages %}: {{ entry.pages }}{% endif %}.{% if entry.doi %} https://doi.org/{{ entry.doi }}{% endif %}
+                {%- elif entry.type == "book" -%}
+                  {{- entry.author }} ({{ entry.year }}). <em>{{ entry.title }}</em>. {% if entry.publisher %}{{ entry.publisher }}{% endif %}.
+                {%- elif entry.type == "inproceedings" -%}
+                  {{- entry.author }} ({{ entry.year }}). {{ entry.title }}. In <em>{{ entry.booktitle }}</em>{% if entry.pages %} (pp. {{ entry.pages }}){% endif %}.{% if entry.doi %} https://doi.org/{{ entry.doi }}{% endif %}
+                {%- elif entry.type == "misc" -%}
+                  {{- entry.author }} ({{ entry.year }}). {{ entry.title }}. {% if entry.url %}<a href="{{ entry.url }}">{{ entry.url }}</a>{% endif %}
+                {%- else -%}
+                  {{- entry.author }} ({{ entry.year }}). {{ entry.title }}.
+                {%- endif -%}
+              </li>
+            {%- endfor -%}
+          {%- endif -%}
+          </ol>
+        </section>
+        {% if show_bibliography %}
+        <script src="/js/bibliography.js"></script>
+        {% endif %}
+        {% endif %}
+      </article>
       {% if page.extra.reaction is defined %}{% set show_reaction = page.extra.reaction %}{% else %}{% set show_reaction = config.extra.reaction %}{% endif %}
       {% if show_reaction %}
       <div class="reaction {{ config.extra.reaction_align }}" data-endpoint="{{ config.extra.reaction_endpoint }}"></div>
@@ -142,6 +181,10 @@
 
 {% block script %}
 <script src="/js/lightense.min.js"></script>
+{% if page.extra.bibliography is defined %}{% set show_bibliography = page.extra.bibliography %}{% else %}{% set show_bibliography = section.extra.bibliography | default(value=false) %}{% endif %}
+{% if show_bibliography %}
+<script src="/js/bibliography.js"></script>
+{% endif %}
 {% if page.extra.mermaid %}
 <script type="module">
   import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';

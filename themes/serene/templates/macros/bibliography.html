@@ -1,0 +1,54 @@
+{# Bibliography macro - simplified for Tera compatibility #}
+
+{# Extract a single field value from a BibTeX entry #}
+{% macro get_field(entry_text, field_name) %}
+  {%- set field_lower = field_name | lower -%}
+  {%- for line in entry_text | split(pat="\n") -%}
+    {%- set line_lower = line | lower -%}
+    {%- if (field_lower in line_lower) and ("=" in line) -%}
+      {{- line | split(pat="=") | nth(n=1) | trim | replace(from='"', to="") | replace(from='{', to="") | replace(from='}', to="") | replace(from=',', to="") -}}
+      {%- break -%}
+    {%- endif -%}
+  {%- endfor -%}
+{% endmacro %}
+
+{# Format a single BibTeX entry in IEEE style #}
+{% macro format_ieee_entry(entry_text, index) %}
+  {%- set entry_type_raw = entry_text | split(pat="{") | first -%}
+  {%- set entry_type = entry_type_raw | trim | lower -%}
+  
+  {%- set author = get_field(entry_text=entry_text, field_name="author") -%}
+  {%- set title = get_field(entry_text=entry_text, field_name="title") -%}
+  {%- set year = get_field(entry_text=entry_text, field_name="year") -%}
+  {%- set journal = get_field(entry_text=entry_text, field_name="journal") -%}
+  {%- set booktitle = get_field(entry_text=entry_text, field_name="booktitle") -%}
+  {%- set pages = get_field(entry_text=entry_text, field_name="pages") -%}
+  {%- set volume = get_field(entry_text=entry_text, field_name="volume") -%}
+  {%- set number = get_field(entry_text=entry_text, field_name="number") -%}
+  {%- set publisher = get_field(entry_text=entry_text, field_name="publisher") -%}
+  {%- set url = get_field(entry_text=entry_text, field_name="url") -%}
+  {%- set doi = get_field(entry_text=entry_text, field_name="doi") -%}
+  
+  {%- if "@article" in entry_type -%}
+    [{{ index }}] {{ author }}, "{{ title }}," {{ journal }}{%- if volume %} vol. {{ volume }}{%- endif %}{%- if number %}, no. {{ number }}{%- endif %}{%- if pages %}, pp. {{ pages }}{%- endif %}, {{ year }}{%- if doi %}, doi: {{ doi }}{%- endif %}.
+  {%- elif "@inproceedings" in entry_type -%}
+    [{{ index }}] {{ author }}, "{{ title }}," in {{ booktitle }}, {{ year }}{%- if pages %}, pp. {{ pages }}{%- endif %}.
+  {%- elif "@book" in entry_type -%}
+    [{{ index }}] {{ author }}, {{ title }}. {{ publisher }}, {{ year }}.
+  {%- elif "@misc" in entry_type -%}
+    [{{ index }}] {{ author }}, "{{ title }}," {{ year }}{%- if url %}, [Online]. Available: {{ url }}{%- endif %}.
+  {%- else -%}
+    [{{ index }}] {{ author }}, "{{ title }}," {{ year }}.
+  {%- endif -%}
+{% endmacro %}
+
+{# Load BibTeX file and return as single string with entries separated by delimiter #}
+{% macro load_bibtex_file(file_path) %}
+  {{- load_data(path=file_path) -}}
+{% endmacro %}
+
+{# Extract citation key from first line of entry #}
+{% macro find_citation_key(entry_text) %}
+  {%- set first_line = entry_text | split(pat="\n") | first -%}
+  {{- first_line | split(pat="{") | nth(n=1) | split(pat=",") | first | trim -}}
+{% endmacro %}

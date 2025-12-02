@@ -1,0 +1,115 @@
+# Bibliography data file for renewable energy systems
+
+[bibliography]
+
+[bibliography.IWK2021]
+type = "misc"
+author = "Indah Water Konsortium"
+title = "INDAH WATER KONSORTIUM MAKES STRIDE IN GREEN TECHNOLOGIES ADAOPTION THROUGH SOLAR PANELS PROJECTS"
+year = "2021"
+month = "Aug"
+url = "https://www.iwk.com.my/cms/upload_files/pressrelease/press_file_000185.pdf"
+
+[bibliography.Muzaffar2022]
+type = "article"
+author = "Muzaffar, Wan Mohd Bukhary W and Aznah, A and Halim, Hakim"
+title = "Energy efficiency and nutrient removal performance: comparison between several types of activated sludge process"
+journal = "IOP Conf. Ser. Earth Environ. Sci."
+year = "2022"
+volume = "1091"
+number = "1"
+doi = "10.1088/1755-1315/1091/1/012056"
+
+[bibliography.IWK2021_report]
+type = "misc"
+author = "Indah Water Konsortium"
+title = "Sustainability Report 2021"
+year = "2021"
+month = "Aug"
+url = "https://www.iwk.com.my/cms/upload_files/resource/sustainabilityreport/IWK%20Sustainability%20Report%202021-Flip.pdf"
+
+[bibliography.Tokos2021]
+type = "inproceedings"
+author = "Tokos, Attila and Bartha, Csaba and Micu, Dan Doru and Jipa, Monica and Nascu, Ioan and Lingvay, Iosif"
+booktitle = "2021 9th International Conference on Modern Power Systems ({MPS}) "
+title = "Energy consumption in wastewater treatment plants"
+publisher = "IEEE"
+year = "2022"
+pages = "1-6"
+doi = "10.1109/MPS52805.2021.9492616"
+
+[bibliography.Quan2022]
+doi = "10.1088/1755-1315/1091/1/012060"
+year = "2022"
+type = "article"
+month = "Nov"
+publisher = "IOP Publishing"
+author = "Quan, L M and Warmadewanthi, I and Helmut, Y"
+title = "Current state and the application of energy conversion of sewage sludge treatment in Malaysia"
+journal = "OP Conference Series: Earth and Environmental Science"
+
+[bibliography.Nguyen2025]
+type = "article"
+author = "Nguyen, HN and Tran, QT and Ngo, CT and Nguyen, DD and Tran, VQ"
+title = "Solar energy prediction through machine learning models: A comparative analysis of regressor algorithms"
+journal = "PLOS ONE"
+year = "2025"
+volume = "20"
+number = "1"
+pages = "e0315955"
+doi = "10.1371/journal.pone.0315955"
+
+[bibliography.IturraldeCarrera2025]
+type = "article"
+author = "Iturralde Carrera, Luis Angel and Alfonso-Francia, Gendry and Constantino-Robles, Carlos D. and Terven, Juan and Chávez-Urbiola, Edgar A. and Rodríguez-Reséndiz, Juvenal"
+title = "Advances and Optimization Trends in Photovoltaic Systems: A Systematic Review"
+journal = "AI"
+year = "2025"
+volume = "6"
+number = "9"
+pages = "225"
+doi = "10.3390/ai6090225"
+
+[bibliography.Alnawafah2025]
+type = "article"
+author = "Alnawafah, Hamza and Alnawafah, Qais and Amano, Ryoichi S."
+title = "Innovative Photovoltaic-Aeration Integration: Enhancing Energy Efficiency and Grid Stability in Wastewater Treatment"
+journal = "J. Energy Res. Technol. Part A"
+year = "2025"
+volume = "1"
+number = "3"
+pages = "032103"
+doi = "10.1115/1.4067364"
+
+[bibliography.Hvala2025]
+type = "article"
+author = "Hvala, Nadja and Vrečko, Darko and Cerar, Peter and Žefran, Gregor and Levstek, Marjetka and Vrančić, Damir"
+title = "Energy Cost Optimisation in a Wastewater Treatment Plant by Balancing On-Site Electricity Generation with Plant Demand"
+journal = "Water"
+year = "2025"
+volume = "17"
+number = "8"
+pages = "1170"
+doi = "10.3390/w17081170"
+
+[bibliography.Yu2025]
+type = "article"
+author = "Yu, Juan and Li, Gaiyan"
+title = "Evaluating Artificial Intelligence-Based Industrial Wastewater Anaerobic Ammonium Oxidation Treatment Optimization and Its Environmental, Economic, and Social Benefits Using a Life Cycle Assessment–System Dynamics Model"
+journal = "Processes"
+year = "2025"
+volume = "13"
+number = "1"
+pages = "59"
+doi = "10.3390/pr13010059"
+
+[bibliography.Selj2025]
+type = "report"
+author = "Selj, Josefine and Wieland, Stefan and Tsanakas, Ioannis"
+title = "Floating Photovoltaic Power Plants: A Review of Energy Yield, Reliability, and Maintenance"
+institution = "IEA-PVPS Task 13"
+year = "2025"
+
+
+
+

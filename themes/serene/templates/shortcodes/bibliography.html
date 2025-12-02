@@ -1,0 +1,59 @@
+{# Bibliography shortcode - renders complete bibliography list in IEEE format #}
+{% import "macros/bibliography.html" as bib_macros %}
+
+{%- set bib_file = body | trim -%}
+
+{%- if bib_file -%}
+<section id="bibliography" class="bibliography-section">
+  <h2>Bibliography</h2>
+  
+  {%- set entries = bib_macros::load_bibtex_file(file_path=bib_file) -%}
+  
+  {%- if entries | length > 0 -%}
+    <ol class="bibliography-list">
+      {%- for entry in entries -%}
+        <li id="{{ entry.key }}" class="bibliography-entry">
+          {{- bib_macros::format_ieee_entry(entry_data=entry, index=loop.index) -}}
+        </li>
+      {%- endfor -%}
+    </ol>
+  {%- else -%}
+    <p>No bibliography entries found.</p>
+  {%- endif -%}
+</section>
+
+<style>
+.bibliography-section {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--color-border);
+}
+
+.bibliography-list {
+  list-style-type: decimal;
+  margin-left: 2rem;
+}
+
+.bibliography-entry {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.citation-link {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.citation-link::before {
+  content: "[";
+}
+
+.citation-link::after {
+  content: "]";
+}
+
+.citation-link:hover {
+  text-decoration: underline;
+}
+</style>
+{%- endif -%}

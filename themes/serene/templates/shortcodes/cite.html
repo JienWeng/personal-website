@@ -1,0 +1,3 @@
+{# Cite shortcode - inline citation with IEEE numbered reference link to bibliography #}
+{%- set citation_key = body | trim -%}
+<a href="#ref-{{ citation_key }}" class="citation-link" data-key="{{ citation_key }}" title="Click to view bibliography entry">{{ citation_key }}</a>

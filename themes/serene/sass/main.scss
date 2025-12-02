@@ -497,6 +497,50 @@ a:focus-visible {
   .mermaid {
     background: #fff;
   }
+
+  /* bibliography */
+  .bibliography-section {
+    margin-top: 3em;
+    padding-top: 1.5em;
+    border-top: 1.5px solid var(--text-decoration-color);
+
+    h2 {
+      margin-top: 0;
+      margin-bottom: 1.5em;
+    }
+  }
+
+  .bibliography-list {
+    list-style-type: decimal;
+    margin: 1.5em 0;
+    padding-left: 2em;
+
+    li {
+      margin-bottom: 1em;
+      line-height: 1.8;
+    }
+  }
+
+  .citation-link {
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: none;
+    background-color: transparent;
+
+    &::before {
+      content: "[";
+    }
+
+    &::after {
+      content: "]";
+    }
+
+    @media (hover: hover) {
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
 }
 
 body.dark .prose {

@@ -1,0 +1,43 @@
+# Bibliography for Advanced Forecasting Models for PV Integration
+
+[bibliography]
+
+[bibliography.IturraldeCarrera2025]
+type = "article"
+author = "Iturralde Carrera, Luis Angel and Alfonso-Francia, Gendry and Constantino-Robles, Carlos D. and Terven, Juan and Chávez-Urbiola, Edgar A. and Rodríguez-Reséndiz, Juvenal"
+title = "Advances and Optimization Trends in Photovoltaic Systems: A Systematic Review"
+journal = "AI"
+year = "2025"
+volume = "6"
+number = "9"
+pages = "225"
+doi = "10.3390/ai6090225"
+
+[bibliography.Nguyen2025]
+type = "article"
+author = "Nguyen, HN and Tran, QT and Ngo, CT and Nguyen, DD and Tran, VQ"
+title = "Solar energy prediction through machine learning models: A comparative analysis of regressor algorithms"
+journal = "PLOS ONE"
+year = "2025"
+volume = "20"
+number = "1"
+pages = "e0315955"
+doi = "10.1371/journal.pone.0315955"
+
+[bibliography.Yu2025]
+type = "article"
+author = "Yu, Juan and Li, Gaiyan"
+title = "Evaluating Artificial Intelligence-Based Industrial Wastewater Anaerobic Ammonium Oxidation Treatment Optimization and Its Environmental, Economic, and Social Benefits Using a Life Cycle Assessment–System Dynamics Model"
+journal = "Processes"
+year = "2025"
+volume = "13"
+number = "1"
+pages = "59"
+doi = "10.3390/pr13010059"
+
+[bibliography.Selj2025]
+type = "report"
+author = "Selj, Josefine and Wieland, Stefan and Tsanakas, Ioannis"
+title = "Floating Photovoltaic Power Plants: A Review of Energy Yield, Reliability, and Maintenance"
+institution = "IEA-PVPS Task 13"
+year = "2025"

@@ -1,8 +1,8 @@
 +++
 title = "A Short Review of Sustainability of Wastewater Treatmetn Plants in Malaysia"
 description = "An overview of the current state and future prospects of WWTPs in Malaysia."
-date = 2025-12-04
-updated = 2025-12-04
+date = 2025-12-03
+updated = 2025-12-05
 draft = false
 
 [taxonomies]

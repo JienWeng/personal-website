@@ -307,3 +307,73 @@ volume = "10"
 number = "18"
 pages = "e36940"
 doi = "10.1016/j.heliyon.2024.e36940"
+
+[bibliography.Gandiglio2017]
+type = "article"
+author = "Gandiglio, Marta and Lanzini, Andrea and Soto, Alicia and Leone, Pierluigi and Santarelli, Massimo"
+title = "Enhancing the Energy Efficiency of Wastewater Treatment Plants through Co-digestion and Fuel Cell Systems"
+journal = "Frontiers in Environmental Science"
+volume = "5"
+year = "2017"
+url = "https://www.frontiersin.org/journals/environmental-science/articles/10.3389/fenvs.2017.00070"
+doi = "10.3389/fenvs.2017.00070"
+issn = "2296-665X"
+
+[bibliography.Tsalas2024]
+type = "article"
+author = "Tsalas, Nikolaos and Golfinopoulos, Spyridon K. and Samios, Stylianos and Katsouras, Georgios and Peroulis, Konstantinos"
+title = "Optimization of Energy Consumption in a Wastewater Treatment Plant: An Overview"
+journal = "Energies"
+volume = "17"
+year = "2024"
+number = "12"
+article_number = "2808"
+url = "https://www.mdpi.com/1996-1073/17/12/2808"
+issn = "1996-1073"
+doi = "10.3390/en17122808"
+
+
+[bibliography.Sembuil2022]
+type = "article"
+author = "Sembuil, Azila and Nor, Aznah and A-Halim, Md. Hakim"
+title = "Sustainable indicators for designing the wastewater treatment plant"
+journal = "IOP Conference Series: Earth and Environmental Science"
+year = "2022"
+month = "Nov"
+publisher = "IOP Publishing"
+volume = "1091"
+number = "1"
+pages = "012057"
+doi = "10.1088/1755-1315/1091/1/012057"
+url = "https://doi.org/10.1088/1755-1315/1091/1/012057"
+
+[bibliography.Milani2024]
+type = "article"
+title = "Biogas and photovoltaic solar energy as renewable energy in wastewater treatment plants: A focus on energy recovery and greenhouse gas emission mitigation"
+journal = "Water Science and Engineering"
+volume = "17"
+number = "3"
+pages = "283-291"
+year = "2024"
+issn = "1674-2370"
+doi = "10.1016/j.wse.2023.11.003"
+url = "https://www.sciencedirect.com/science/article/pii/S167423702300114X"
+author = "Sevda Jalali Milani and Gholamreza Nabi Bidhendi"
+keywords = "Biogas, Climate change, Photovoltaic cell, Photovoltaic system, Energy recovery, Greenhouse gas reduction"
+
+
+[bibliography.Zamfir2025]
+type = "article"
+author = "Zamfir, Florin-Stefan and Carbureanu, Madalina and Mihalache, Sanda Florentina"
+title = "Application of Machine Learning Models in Optimizing Wastewater Treatment Processes: A Review"
+journal = "Applied Sciences"
+volume = "15"
+year = "2025"
+number = "15"
+article_number = "8360"
+url = "https://www.mdpi.com/2076-3417/15/15/8360"
+issn = "2076-3417"
+doi = "10.3390/app15158360"
+
+
+

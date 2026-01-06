@@ -1,5 +1,5 @@
 +++
-title = "A Short Review of Sustainability of Wastewater Treatmetn Plants in Malaysia"
+title = "A Short Review of Sustainability of Wastewater Treatment Plants in Malaysia"
 description = "An overview of the current state and future prospects of WWTPs in Malaysia."
 date = 2025-12-03
 updated = 2025-12-05
@@ -53,6 +53,7 @@ In terms of renewable energy integration, research consistently identifies the a
 There is also a strong research convergence on retrofitting WWTPs with solar photovoltaic (PV) systems to offset grid dependency. Studies emphasize that WWTPs cover large surface areas, making them an ideal candidate for PV installation {% cite(path="bibliography/wwtp_review.bib") %}Shao2024{% end %} {% cite(path="bibliography/wwtp_review.bib") %}Colacicco2020{% end %}. An interesting finding also suggested cable-supported floating PV systems on WWTPs' aeration ponds can further enhance energy generation while minimizing land use {% cite(path="bibliography/wwtp_review.bib") %}Milani2024{% end %}. Recent research indicates that combining optimized operational parameters with PV systems can reduce carbonn emissions by 30-50% compared to conventional WWTPs {% cite(path="bibliography/wwtp_review.bib") %}Shao2024{% end %}, noted that the photovoltaic panels in the study occupied an area of 22,000 m², with daily treatment capacity of 100,000 m³/day, reducing the electricity cost by 40-60%. Additionally, some studies even suggest that small scale WWTPs with flow rates less than $1.89 \times 10^4 m^3/d$, can achieve energy self-sufficiency through solar PV integration alone, with supplying required energy varying from 30% to 100% {% cite(path="bibliography/wwtp_review.bib") %}Milani2024{% end %}.
 
 In machine learning applications, multiple sources agree that LSTM networks as superior for handling time-series data and capturing long-term dependencies in water quality parameters {% cite(path="bibliography/wwtp_review.bib") %}Zhang2025a{% end %} {% cite(path="bibliography/wwtp_review.bib") %}Wongburi2023{% end %}. Other than sequential models, ensemble learning methods, such as Random Forests and Gradient Boosting Machines, are consistently highlighted for their high accuracy and interpretability in predicting energy consumption and effluent quality, often outperforming their traditional counterparts like Support Vector Machines (SVM) and simple Artificial Neural Networks (ANN) {% cite(path="bibliography/wwtp_review.bib") %}Alali2023{% end %} {% cite(path="bibliography/wwtp_review.bib") %}Zamfir2025{% end %}.
+
 
 # Summary
 
